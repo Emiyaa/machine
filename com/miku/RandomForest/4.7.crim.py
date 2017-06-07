@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     pd.set_option('display.width', 200)
     np.set_printoptions(linewidth=200)
-    data = pd.read_excel('..\\2.Regression\\crim.xlsx', sheetname='Sheet1', header=0)
+    data = pd.read_excel('..\\Regression\\crim.xlsx', sheetname='Sheet1', header=0)
     print 'data.head() = \n', data.head()
     columns = [c for c in data.columns]      # 列标题
     data.sort_values(by=data.columns[1], inplace=True)

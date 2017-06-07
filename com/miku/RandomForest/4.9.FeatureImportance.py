@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 
 
 if __name__ == "__main__":
-    path = '..\\2.Regression\\iris.data'  # 数据文件路径
+    path = '..\\Regression\\iris.data'  # 数据文件路径
     data = pd.read_csv(path, header=None)
     x = data[range(4)]
     y = pd.Categorical(data[4]).codes

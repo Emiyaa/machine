@@ -16,7 +16,7 @@ if __name__ == '__main__':
     cross_validation = False
     random_forest = False
 
-    data = pd.read_csv('..\\3.Data\\car.data', header=None)
+    data = pd.read_csv('..\\Data\\car.data', header=None)
     n_columns = len(data.columns)
     columns = ['buy', 'maintain', 'doors', 'persons', 'boot', 'safety', 'accept']
     new_columns = dict(zip(np.arange(n_columns), columns))
