@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/com/maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="environmentProperties">
+      <map>
+        <entry key="M2_HOME" value="D:\com\maven" />
+      </map>
+    </option>
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="mavenProperties">
+      <map>
+        <entry key="archetypeCatalog" value="Internal" />
+      </map>
+    </option>
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 (D:\com\pycharm\Anaconda2\python.exe)" project-jdk-type="Python SDK" />
+</project>
