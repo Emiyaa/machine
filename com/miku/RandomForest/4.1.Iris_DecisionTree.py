@@ -22,7 +22,7 @@ if __name__ == "__main__":
     mpl.rcParams['font.sans-serif'] = [u'SimHei']
     mpl.rcParams['axes.unicode_minus'] = False
 
-    path = '..\\2.Regression\\iris.data'  # 数据文件路径
+    path = '..\\Regression\\iris.data'  # 数据文件路径
     data = pd.read_csv(path, header=None)
     x = data[range(4)]
     y = pd.Categorical(data[4]).codes
